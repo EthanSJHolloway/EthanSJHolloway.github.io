@@ -1,9 +1,53 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width", initial-scale="1.0">
+        <title>Ethan Holloway</title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel = "stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <div id="header">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="hero" id="hero-area">
+                    <div class="content">
+                        <h3>Hi there, I'm<h3>
+                        <h1>Ethan <br> <span>Holloway</span> </h1>
+                        <p>A <strong>Developer, Student and Tutor</strong> from <strong>The University of Sheffield</strong></p>
+
+                        <div class="contact-section">
+                            <button class="contactBtn">Contact me</button>
+                            <div class="social-icons">
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-bluesky"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-images" data-tilt data-perspective="1000" data-tilt-max="8">
+                        <img src="images/Ethan-Main-Rounded.png" alt="A picture of me">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+        <script src = "script.js"></script>
+    </body>
 </html>
